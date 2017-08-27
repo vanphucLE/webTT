@@ -14,3 +14,9 @@ Scenario: Một người muốn xem chi tiết của sản phẩm từ trang dan
   Given Họ đang ở trong một danh mục sản phẩm
   When họ chọn vào sản phẩm
   Then Phần giới thiệu sản phẩm xuất hiện ở nửa trang bên phải
+
+  
+Scenario: Một người muốn xem chi tiết của sản phẩm từ trang tìm kiếm
+  Given Họ đang ở trong một danh mục sản phẩm
+  When họ chọn vào sản phẩm
+  Then Phần giới thiệu sản phẩm xuất hiện ở nửa trang bên phải
