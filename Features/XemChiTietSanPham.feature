@@ -8,9 +8,9 @@ Một khách hàng muốn xem chi tiết sản phẩm, bao gồm hình ảnh c�
 Scenario: Một người muốn xem chi tiết của sản phẩm từ trang chủ
   Given Họ đã biết sản phẩm muốn xem trên trang chủ
   When họ chọn vào sản phẩm
-  Then Trang chi tiết sản phẩm xuất hiện
+  Then Phần giới thiệu sản phẩm xuất hiện ở nửa trang bên phải
   
 Scenario: Một người muốn xem chi tiết của sản phẩm từ trang danh mục
   Given Họ đang ở trong một danh mục sản phẩm
   When họ chọn vào sản phẩm
-  Then Trang chi tiết sản phẩm xuất hiện
+  Then Phần giới thiệu sản phẩm xuất hiện ở nửa trang bên phải
